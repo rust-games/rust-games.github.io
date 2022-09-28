@@ -8,7 +8,7 @@ language = "en"
 default-theme = "navy"
 git-repository-url = "https://github.com/rust-games/rust-games.github.io"
 edit-url-template = "https://github.com/rust-games/rust-games.github.io/edit/master/docs/{path}"
-site-url = "/" # required to ensure navigation links and script/css imports in the 404 file work correctly
+site-url = "/rust-games.github.io/" # required to ensure navigation links and script/css imports in the 404 file work correctly
 mathjax-support = false
 
 [output.html.playground]
