@@ -1,0 +1,21 @@
+[book]
+title = "Rust repository for games with GUI"
+description = "Book, Wiki, Docs for rsut-games projects"
+authors = ["Valentin Colin"]
+language = "en"
+
+[output.html]
+default-theme = "navy"
+git-repository-url = "https://github.com/rust-games/rust-games.github.io"
+edit-url-template = "https://github.com/rust-games/rust-games.github.io/edit/master/docs/{path}"
+site-url = "/" # required to ensure navigation links and script/css imports in the 404 file work correctly
+mathjax-support = false
+
+[output.html.playground]
+# If the option "editable" is set to "true", the "line-numbers" should also be set to "true" for editable blocks.
+editable = false
+line-numbers = false
+
+[output.html.fold]
+enable = true
+level = 1
